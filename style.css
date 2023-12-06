@@ -42,8 +42,6 @@
     justify-content: center;
 }
 .main-div1{
-    display: flex;
-    justify-content: center;
     width: 330px;
     height: 83px;
     margin-top:5rem;
@@ -55,6 +53,7 @@
     align-items: center;
 }
 .main-div1-style{
+    text-align: center;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -93,4 +92,23 @@
 }
 .div4{
     margin-top:6rem;
+}
+.create-line1 {
+    border: 1px solid #515151;
+    width: 40%;
+    margin:0
+}
+
+.create-line2 {
+    position: relative;
+    border: 1px solid #1EE1B3;
+    width: 25%;
+    margin:0;
+    top:-2px;
+}
+.div-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 4.7rem;
 }
